@@ -15,6 +15,7 @@
 		19422BE625A912AB0073D5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19422BE425A912AB0073D5BE /* LaunchScreen.storyboard */; };
 		19422BF125A912AB0073D5BE /* BottomSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19422BF025A912AB0073D5BE /* BottomSheetTests.swift */; };
 		19422BFC25A912AB0073D5BE /* BottomSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19422BFB25A912AB0073D5BE /* BottomSheetUITests.swift */; };
+		19422C0D25A9134E0073D5BE /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19422C0C25A9134E0073D5BE /* BottomSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		19422BF725A912AB0073D5BE /* BottomSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19422BFB25A912AB0073D5BE /* BottomSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetUITests.swift; sourceTree = "<group>"; };
 		19422BFD25A912AB0073D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19422C0C25A9134E0073D5BE /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				19422BD925A912AA0073D5BE /* AppDelegate.swift */,
+				19422C0C25A9134E0073D5BE /* BottomSheet.swift */,
 				19422BDB25A912AA0073D5BE /* SceneDelegate.swift */,
 				19422BDD25A912AA0073D5BE /* ViewController.swift */,
 				19422BDF25A912AA0073D5BE /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				19422BDE25A912AA0073D5BE /* ViewController.swift in Sources */,
 				19422BDA25A912AA0073D5BE /* AppDelegate.swift in Sources */,
+				19422C0D25A9134E0073D5BE /* BottomSheet.swift in Sources */,
 				19422BDC25A912AA0073D5BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
